@@ -1,0 +1,27 @@
+@media (min-width: 769px) and (max-width: 1024px) {
+  #section-hebergements-pop {
+    flex-direction: column;
+  }
+  #populaires-list {
+    flex-direction: row;
+    gap: 20px;
+  }
+  .populaires-card {
+    width: 50%;
+  }
+  #activites {
+    gap: 50px;
+  }
+  .activites-card {
+    width: 240px;
+    height: auto;
+  }
+
+  .activites-card h3 {
+    font-size: 2vw;
+  }
+  .activites-images {
+    width: var(--width);
+    height: 200px;
+  }
+}

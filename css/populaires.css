@@ -1,0 +1,48 @@
+#populaires {
+  flex-basis: 30%;
+  background-color: var(--color-secondary);
+  border-radius: 15px;
+  padding: var(--section-padding);
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+#populaires-list {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+#titre-populaires {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#titre-populaires span {
+  font-size: 18px;
+}
+.populaires-card a {
+  display: flex;
+  background-color: white;
+  border-radius: 15px;
+  box-shadow: 0 0 10px var(--color-light-grey);
+  padding: 4px;
+}
+.plus-populaires-images {
+  width: 35%;
+  height: 130px;
+  border-radius: 15px 0 0 15px;
+  object-fit: cover;
+}
+#titre-populaires i {
+  color: var(--color-primary);
+  font-size: 15px;
+}
+.description-pop {
+  display: flex;
+  flex-direction: column;
+  margin-left: 15px;
+  gap: 5px;
+}
+.etoiles-scpec {
+  padding-top: 20px;
+}

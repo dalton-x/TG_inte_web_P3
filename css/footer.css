@@ -1,0 +1,12 @@
+#section-footer {
+  display: flex;
+  background-color: var(--color-secondary);
+  padding: 30px;
+}
+.footer-box {
+  width: 33.33%;
+}
+.footer-box h2,
+li {
+  margin-bottom: 15px;
+}

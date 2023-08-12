@@ -1,0 +1,22 @@
+#section-hebergements-pop {
+  display: flex;
+  gap: 25px;
+}
+.etoiles_hebergements,
+.etoiles_populaires {
+  display: flex;
+}
+.etoiles_populaires {
+  display: flex;
+  margin-top: auto;
+}
+.fa-star {
+  color: var(--color-primary);
+}
+.no-color {
+  color: var(--color-secondary);
+}
+strong {
+  margin: -5px;
+  font-size: 15px;
+}

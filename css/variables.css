@@ -1,0 +1,10 @@
+:root {
+  --section-padding: 30px;
+  --color-primary: #0065FC;
+  --color-secondary: #F2F2F2;
+  --color-filter: #D9D9D9;
+  --color-tertiary: #DEEBFF;
+  --color-light-grey: #CECBCB;
+  --color-dark-grey: #868585;
+  --width: 100%;
+}

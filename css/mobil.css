@@ -1,0 +1,143 @@
+@media (min-width: 320px) and (max-width: 768px) {
+  header {
+    display: block;
+  }
+  .logo img {
+    display: block;
+    margin: auto;
+  }
+  .menu-nav ul {
+    display: flex;
+    justify-content: space-between;
+  }
+  .menu-nav ul li {
+    width: 50%;
+  }
+  .menu-nav ul li a {
+    display: flex;
+    justify-content: center;
+  }
+  #recherche_box {
+    justify-content: center;
+  }
+  #recherche {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  #recherche_box input {
+    width: var(--width);
+  }
+  #icon {
+    display: block;
+    color: rgb(255, 255, 255);
+  }
+  #text-button {
+    display: none;
+  }
+  li.hebergements,
+  li.activites {
+    border-top: none;
+    border-bottom: solid 3px;
+    border-color: transparent;
+  }
+  li.hebergements:hover,
+  li.activites:hover {
+    border-top: none;
+    border-bottom: solid 3px;
+    border-color: var(--color-primary);
+  }
+  #section-hebergements-pop {
+    flex-direction: column-reverse;
+  }
+  #filtres {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  #categories {
+    flex-wrap: wrap;
+    padding-left: 20px;
+    gap: 20px;
+    font-size: 25px;
+    column-count: 2;
+  }
+  #categories a {
+    padding-right: 50px;
+    width: 48%;
+  }
+  #populaires {
+    border-radius: 0;
+    width: var(--width);
+    padding: 30px;
+  }
+  .hebergements-card {
+    width: var(--width);
+  }
+  #hebergements {
+    background-color: white;
+    border-radius: 0;
+  }
+  #activites {
+    flex-direction: column;
+    align-items: center;
+  }
+  .populaires-card {
+    width: var(--width);
+  }
+  #populaires-list {
+    flex-direction: column;
+  }
+  #titre-populaires {
+    padding: 0 20px 0 20px;
+  }
+  #plus-lien {
+    display: none;
+  }
+  .activites-card {
+    width: var(--width);
+    height: 21vh;
+  }
+  .activites-images {
+    width: var(--width);
+    height: 15vh;
+  }
+  #section-activites h2,
+  #hebergements h2,
+  #titre-populaires,
+  h3 {
+    padding-left: 0px;
+  }
+  #section-footer {
+    flex-direction: column;
+  }
+  header,
+  main,
+  footer {
+    padding: 0;
+  }
+
+  .footer-box {
+    width: 100%;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 614px) {
+  #categories {
+    flex-wrap: wrap;
+    padding-left: 20px;
+    gap: 20px;
+    font-size: 25px;
+    column-count: 2;
+  }
+  #categories a {
+    padding-right: 50px;
+    width: 40%;
+  }
+  
+  #categories a, #categories a span {
+    font-size: 2.5vw;
+  }
+
+  .footer-box {
+    width: 100%;
+  }
+}
