@@ -1,4 +1,4 @@
-@media (min-width: 320px) and (max-width: 768px) {
+@media (min-width: 280px) and (max-width: 768px) {
   header {
     display: block;
   }
@@ -62,7 +62,7 @@
   }
   #categories a {
     padding-right: 50px;
-    width: 48%;
+    width: 80%;
   }
   #populaires {
     border-radius: 0;
@@ -94,7 +94,7 @@
   }
   .activites-card {
     width: var(--width);
-    height: 21vh;
+    height: min-content;
   }
   .activites-images {
     width: var(--width);
@@ -120,7 +120,7 @@
   }
 }
 
-@media (min-width: 320px) and (max-width: 614px) {
+@media (min-width: 375px) and (max-width: 768px) {
   #categories {
     flex-wrap: wrap;
     padding-left: 20px;
