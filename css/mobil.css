@@ -17,6 +17,10 @@
     display: flex;
     justify-content: center;
   }
+
+  #titre>h1 {
+    font-size: 1.1rem;
+  }
   #recherche_box {
     justify-content: center;
   }
@@ -27,13 +31,20 @@
   #recherche_box input {
     width: var(--width);
   }
+
+  #bouton-rechercher {
+    min-width: 30px;
+  }
+
   #icon {
     display: block;
     color: rgb(255, 255, 255);
   }
+
   #text-button {
     display: none;
   }
+
   li.hebergements,
   li.activites {
     border-top: none;
@@ -49,9 +60,9 @@
   #section-hebergements-pop {
     flex-direction: column-reverse;
   }
-  #filtres {
-    display: flex;
-    flex-wrap: wrap;
+
+  #filters>h2 {
+    text-align: center;
   }
   #categories {
     flex-wrap: wrap;
