@@ -2,12 +2,12 @@
 /* filters */
 #filters {
   display: flex;
-  gap: 20px;
+  gap: 35px;
   align-items: center;
 }
 #categories {
   display: flex;
-  gap: 40px;
+  gap: 15px;
   align-items: center;
 }
 #categories a {

@@ -1,4 +1,4 @@
-@media (min-width: 280px) and (max-width: 768px) {
+@media (max-width: 768px) {
   header {
     display: block;
   }
@@ -131,7 +131,7 @@
   }
 }
 
-@media (min-width: 375px) and (max-width: 768px) {
+@media (max-width: 768px) {
   #categories {
     flex-wrap: wrap;
     padding-left: 20px;

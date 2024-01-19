@@ -12,3 +12,7 @@ footer {
   margin: auto;
   padding: 0 15px;
 }
+
+section {
+  gap: 35px;
+}

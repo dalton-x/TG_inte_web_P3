@@ -24,6 +24,11 @@ li.activites:hover {
   border-top: solid 3px;
   border-color: var(--color-primary);
 }
+
+li a:hover {
+  color: var(--color-primary) !important;
+}
+
 #logo {
   height: 25px;
 }

@@ -39,11 +39,11 @@
       <section id="recherche">
         <div id="titre">
           <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
-          <p>En plein centre ville ou en pleine nature</p>
+          <p>En plein centre-ville ou en pleine nature</p>
         </div>
         <form id="recherche_box" method="GET" action="/index.html">
           <i class="fa-solid fa-location-dot"></i>
-          <input class="input-recherche" name="ville" type="text" placeholder="Marseille,France" value="" >
+          <input class="input-recherche" name="ville" type="text" placeholder="Marseille, France" value="" >
           <button type="submit" id="bouton-rechercher">
             <span id="icon"><i class="fa-solid fa-magnifying-glass"></i></span>
             <span id="text-button">Rechercher</span>
@@ -56,7 +56,7 @@
             <a href="#"><i class="fa-solid fa-money-bill-wave"></i><span>Économique</span></a>
             <a href="#"><i class="fa-solid fa-person"></i><span>Familial</span></a>
             <a href="#"><i class="fa-solid fa-heart"></i><span>Romantique</span></a>
-            <a href="#"><i class="fa-solid fa-dog"></i><span>Animaux autorisés</span></a>
+            <a href="#"><i class="fa-solid fa-fire"></i><span>Nos pépites</span></a>
           </div>
         </div>
         <div id="info">
@@ -67,37 +67,17 @@
       <!--Section hébergements et populaires-->
       <section id="section-hebergements-pop">
         <!--Hébergements-->
-        <div id="hebergements">
+        <article id="hebergements">
           <h2>Hébergements à Marseille</h2>
           <div id="hebergements-list">
             <div class="hebergements-card">
               <a href="#">
                 <img
-                  class="hebergements-imege"
-                  src="images/hebergements/marcus-loke.jpg"
-                  alt="Auberge La Cannebière à Marseille"
-                >
-                <div class="description-heberg">
-                  <h3>Auberge La Cannebière</h3>
-                  <p>Nuit à partir de 25 <strong>€</strong></p>
-                  <div class="etoiles_hebergements">
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star no-color"></i>
-                  </div>
-                </div>
-              </a>
-            </div>
-            <div class="hebergements-card">
-              <a href="#">
-                <img
-                  class="hebergements-imege"
+                  class="hebergements-image"
                   src="images/hebergements/fred-kleber.jpg"
                   alt="Hotel du port à Marseille"
                 >
-                <div class="description-heberg">
+                <div class="description-hebergements">
                   <h3>Hotel du port</h3>
                   <p>Nuit à partir de 52 <strong>€</strong></p>
                   <div class="etoiles_hebergements">
@@ -113,11 +93,31 @@
             <div class="hebergements-card">
               <a href="#">
                 <img
-                  class="hebergements-imege"
+                  class="hebergements-image"
+                  src="images/hebergements/febrian-zakaria.jpg"
+                  alt="Hotel chez Amina à Marseille"
+                >
+                <div class="description-hebergements">
+                  <h3>Hotel chez Amina</h3>
+                  <p>Nuit à partir de 96 <strong>€</strong></p>
+                  <div class="etoiles_hebergements">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star no-color"></i>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="hebergements-card">
+              <a href="#">
+                <img
+                  class="hebergements-image"
                   src="images/hebergements/reisetopia.jpg"
                   alt="Hotel Les mouettes à Marseille"
                 >
-                <div class="description-heberg">
+                <div class="description-hebergements">
                   <h3>Hotel Les mouettes</h3>
                   <p>Nuit à partir de 76 <strong>€</strong></p>
                   <div class="etoiles_hebergements">
@@ -133,11 +133,11 @@
             <div class="hebergements-card">
               <a href="#">
                 <img
-                  class="hebergements-imege"
+                  class="hebergements-image"
                   src="images/hebergements/annie-spratt.jpg"
                   alt="Hotel de la mer à Marseille"
                 >
-                <div class="description-heberg">
+                <div class="description-hebergements">
                   <h3>Hotel de la mer</h3>
                   <p>Nuit à partir de 46 <strong>€</strong></p>
                   <div class="etoiles_hebergements">
@@ -153,13 +153,13 @@
             <div class="hebergements-card">
               <a href="#">
                 <img
-                  class="hebergements-imege"
-                  src="images/hebergements/nicate-lee.jpg"
-                  alt="Auberge Le Panier à Marseille"
+                  class="hebergements-image"
+                  src="images/hebergements/marcus-loke.jpg"
+                  alt="Auberge La Cannebière à Marseille"
                 >
-                <div class="description-heberg">
-                  <h3>Auberge Le Panier</h3>
-                  <p>Nuit à partir de 23 <strong>€</strong></p>
+                <div class="description-hebergements">
+                  <h3>Auberge La Cannebière</h3>
+                  <p>Nuit à partir de 25 <strong>€</strong></p>
                   <div class="etoiles_hebergements">
                     <i class="fa-solid fa-star"></i>
                     <i class="fa-solid fa-star"></i>
@@ -173,13 +173,13 @@
             <div class="hebergements-card">
               <a href="#">
                 <img
-                  class="hebergements-imege"
-                  src="images/hebergements/febrian-zakaria.jpg"
-                  alt="Hotel chez Amina à Marseille"
+                  class="hebergements-image"
+                  src="images/hebergements/nicate-lee.jpg"
+                  alt="Auberge Le Panier à Marseille"
                 >
-                <div class="description-heberg">
-                  <h3>Hotel chez Amina</h3>
-                  <p>Nuit à partir de 96 <strong>€</strong></p>
+                <div class="description-hebergements">
+                  <h3>Auberge Le Panier</h3>
+                  <p>Nuit à partir de 23 <strong>€</strong></p>
                   <div class="etoiles_hebergements">
                     <i class="fa-solid fa-star"></i>
                     <i class="fa-solid fa-star"></i>
@@ -192,7 +192,7 @@
             </div>
           </div>
           <a href="#" id="plus-lien"><h3>Afficher plus</h3></a>
-        </div>
+        </article>
         <!--Les plus populaires-->
         <aside id="populaires">
           <h2 id="titre-populaires">
@@ -211,8 +211,8 @@
                 >
                 <div class="description-pop">
                   <h3>Hôtel Le soleil du matin</h3>
-                  <p>Nuit à partir de 96 <strong>€</strong></p>
-                  <div class="etoiles_populaires etoiles-scpec">
+                  <div>Nuit à partir de 128 <span>€</span></div>
+                  <div class="etoiles_populaires">
                     <i class="fa-solid fa-star"></i>
                     <i class="fa-solid fa-star"></i>
                     <i class="fa-solid fa-star"></i>
@@ -231,7 +231,7 @@
                 >
                 <div class="description-pop">
                   <h3>Chambre d'hôtes Au cœur de l'eau</h3>
-                  <p>Nuit à partir de 96 <strong>€</strong></p>
+                  <p>Nuit à partir de 71 <span>€</span></p>
                   <div class="etoiles_populaires">
                     <i class="fa-solid fa-star"></i>
                     <i class="fa-solid fa-star"></i>
@@ -246,13 +246,13 @@
               <a href="#">
                 <img
                   class="plus-populaires-images"
-                  src="images/hebergements/febrian-zakaria.jpg"
+                  src="images/hebergements/febrian-zakaria2.jpg"
                   alt="Hôtel bleu et blanc à Marseille"
                 >
                 <div class="description-pop">
                   <h3>Hôtel Bleu et Blanc</h3>
-                  <p>Nuit à partir de 68 <strong>€</strong></p>
-                  <div class="etoiles_populaires etoiles-scpec">
+                  <p>Nuit à partir de 68 <span>€</span></p>
+                  <div class="etoiles_populaires">
                     <i class="fa-solid fa-star"></i>
                     <i class="fa-solid fa-star"></i>
                     <i class="fa-solid fa-star"></i>
@@ -332,7 +332,7 @@
               <a href="#">Charte qualité</a>
             </li>
             <li>
-              <a href="#">Soumettre votre hôtel</a>
+              <a href="#">Proposer votre hôtel</a>
             </li>
           </ul>
         </div>
