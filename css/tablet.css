@@ -36,10 +36,7 @@
   }
 
   .populaires-card {
-    /* display: flex; */
     height: 146px;
-    /* justify-content: center; */
-    /* align-items: center; */
     flex: 1 0 0;
     gap: 25px;
     max-width: 265px;
@@ -58,7 +55,6 @@
   .description-pop h3 {
     color: #000;
     align-self: stretch;
-    /* Card/Title */
     font-family: Raleway;
     font-size: 16px;
     font-style: normal;

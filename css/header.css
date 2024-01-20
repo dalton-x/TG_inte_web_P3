@@ -25,7 +25,7 @@ li.activites:hover {
   border-color: var(--color-primary);
 }
 
-li a:hover {
+.menu-nav li a:hover {
   color: var(--color-primary) !important;
 }
 
