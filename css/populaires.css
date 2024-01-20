@@ -7,19 +7,28 @@
   flex-direction: column;
   gap: 25px;
 }
+
 #populaires-list {
   display: flex;
   flex-direction: column;
   gap: 30px;
 }
+
 #titre-populaires {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
+
 #titre-populaires span {
-  font-size: 18px;
+  color: #000;
+  font-family: Raleway;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
 }
+
 .populaires-card a {
   display: flex;
   height: 146px;
@@ -29,6 +38,7 @@
   background: #FFF;
   box-shadow: 0px 3px 15px 0px rgba(0, 0, 0, 0.10);
 }
+
 .plus-populaires-images {
   width: 123px;
   height: 146px;
@@ -38,10 +48,12 @@
   border-left: 5px solid var(--White, #FFF); 
   object-fit: cover;
 }
+
 #titre-populaires i {
   color: var(--color-primary);
-  font-size: 15px;
+  font-size: 22px;
 }
+
 .description-pop {
   display: flex;
   width: 246px;
@@ -49,7 +61,7 @@
   padding: 10px 5px 5px 15px;
   flex-direction: column;
   align-items: flex-start;
-  gap: 24px;
+  gap: 5px;
 }
 
 .description-pop h3 {
@@ -63,7 +75,6 @@
 }
 
 .etoiles_populaires {
-  padding-top: 20px;
   padding-bottom: 5px;
   font-size: 12px;
 }

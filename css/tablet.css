@@ -1,17 +1,75 @@
 @media (min-width: 769px) and (max-width: 1024px) {
+  body {
+    padding-left: 50px;
+    padding-right: 50px;
+  } 
+  #titre h1 {
+    font-family: Raleway;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal; 
+  }
+
+  #titre p {
+    font-family: Raleway;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal; 
+  }
+
   #section-hebergements-pop {
     flex-direction: column;
   }
+
   #populaires-list {
-    flex-direction: row;
+    display: flex;
+    align-items: flex-start;
     gap: 20px;
+    align-self: stretch; 
+    flex-direction: row;
   }
+
+  .plus-populaires-images {
+    width: 25%;
+  }
+
   .populaires-card {
-    width: 50%;
+    /* display: flex; */
+    height: 146px;
+    /* justify-content: center; */
+    /* align-items: center; */
+    flex: 1 0 0;
+    gap: 25px;
+    max-width: 265px;
   }
+
+  .description-pop {
+    display: flex;
+    width: 183.111px;
+    padding: 10px 5px 5px 15px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+    align-self: stretch;
+  }
+
+  .description-pop h3 {
+    color: #000;
+    align-self: stretch;
+    /* Card/Title */
+    font-family: Raleway;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+
   #activites {
     gap: 50px;
   }
+
   .activites-card {
     width: 240px;
     height: auto;
@@ -20,8 +78,29 @@
   .activites-card h3 {
     font-size: 2vw;
   }
+
   .activites-images {
     width: var(--width);
     height: 200px;
+  }
+
+  #text-button {
+    padding: 16px;
+  }
+
+  #filters {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; 
+    gap: 20px; 
+  }
+  #filter h2 {
+    text-align: left;
+  }
+
+  #categories {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
   }
 }
