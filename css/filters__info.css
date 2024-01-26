@@ -10,7 +10,13 @@
   gap: 15px;
   align-items: center;
 }
-#categories a {
+
+.filter-block {
+  display: flex;
+  gap: 15px;
+}
+
+#categories .filter-block a {
   display: flex;
   border: solid 2px var(--color-filter);
   border-radius: 20px;
@@ -19,6 +25,7 @@
 #filters i {
   color: var(--color-primary);
   padding-right: 10px;
+  font-size: 17px;
 }
 #filters h2,
 span {

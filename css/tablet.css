@@ -52,18 +52,22 @@
     align-self: stretch;
   }
 
-  .description-pop h3 {
+  #populaires-list .description-pop h3 {
     color: #000;
     align-self: stretch;
     font-family: Raleway;
-    font-size: 16px;
+    font-size: 1.4vw;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
   }
 
+  .description-pop div, .description-pop span {
+    font-size: 1.4vw;
+  }
+
   #activites {
-    gap: 50px;
+    gap: 25px;
   }
 
   .activites-card {
